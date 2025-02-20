@@ -9,10 +9,10 @@ $generator = new Watermark();
 /**
  * Create watermark from Image
  */
-$resultPath = $generator->createFromText(
+$resultPath = $generator->createFromImage(
     'img/image.png', // Source Image Path
     'result.png', // Destination Image Path
-    'I am Kaia', // Source Watermark Image Path
+    'img/php.png', // Source Watermark Image Path
     [
         'position'  => 'top-left', 
         'size'     => 16, 
