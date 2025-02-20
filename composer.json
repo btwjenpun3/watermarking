@@ -1,0 +1,19 @@
+{
+    "name": "kaia/watermarking",
+    "description": "PHP Packages for adding watermark on image",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kaia\\Watermarking\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muhamad Helmi",
+            "email": "muhamadkelmi@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
